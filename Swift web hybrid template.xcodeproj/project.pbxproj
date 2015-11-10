@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		928B65561BF17ACE004F17F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928B65551BF17ACE004F17F4 /* AppDelegate.swift */; };
+		928B65581BF17ACE004F17F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928B65571BF17ACE004F17F4 /* ViewController.swift */; };
+		928B655A1BF17ACE004F17F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928B65591BF17ACE004F17F4 /* Assets.xcassets */; };
+		928B655D1BF17ACE004F17F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928B655B1BF17ACE004F17F4 /* Main.storyboard */; };
+		928B65681BF17ACE004F17F4 /* Swift_web_hybrid_templateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928B65671BF17ACE004F17F4 /* Swift_web_hybrid_templateTests.swift */; };
+		928B657E1BF17D69004F17F4 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 928B657A1BF17D69004F17F4 /* index.html */; settings = {ASSET_TAGS = (); }; };
+		928B65821BF17D8F004F17F4 /* css in Resources */ = {isa = PBXBuildFile; fileRef = 928B65801BF17D8F004F17F4 /* css */; settings = {ASSET_TAGS = (); }; };
+		928B65831BF17D8F004F17F4 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 928B65811BF17D8F004F17F4 /* js */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		928B65641BF17ACE004F17F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 928B654A1BF17ACE004F17F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 928B65511BF17ACE004F17F4;
+			remoteInfo = "Swift web hybrid template";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		928B65521BF17ACE004F17F4 /* Swift web hybrid template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift web hybrid template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		928B65551BF17ACE004F17F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		928B65571BF17ACE004F17F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		928B65591BF17ACE004F17F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		928B655C1BF17ACE004F17F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		928B655E1BF17ACE004F17F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		928B65631BF17ACE004F17F4 /* Swift web hybrid templateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift web hybrid templateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		928B65671BF17ACE004F17F4 /* Swift_web_hybrid_templateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_web_hybrid_templateTests.swift; sourceTree = "<group>"; };
+		928B65691BF17ACE004F17F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		928B657A1BF17D69004F17F4 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		928B65801BF17D8F004F17F4 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		928B65811BF17D8F004F17F4 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		928B654F1BF17ACE004F17F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928B65601BF17ACE004F17F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		928B65491BF17ACE004F17F4 = {
+			isa = PBXGroup;
+			children = (
+				928B65541BF17ACE004F17F4 /* Swift web hybrid template */,
+				928B65661BF17ACE004F17F4 /* Swift web hybrid templateTests */,
+				928B65531BF17ACE004F17F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		928B65531BF17ACE004F17F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				928B65521BF17ACE004F17F4 /* Swift web hybrid template.app */,
+				928B65631BF17ACE004F17F4 /* Swift web hybrid templateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		928B65541BF17ACE004F17F4 /* Swift web hybrid template */ = {
+			isa = PBXGroup;
+			children = (
+				928B65771BF17D69004F17F4 /* web_root */,
+				928B65551BF17ACE004F17F4 /* AppDelegate.swift */,
+				928B65571BF17ACE004F17F4 /* ViewController.swift */,
+				928B65591BF17ACE004F17F4 /* Assets.xcassets */,
+				928B655B1BF17ACE004F17F4 /* Main.storyboard */,
+				928B655E1BF17ACE004F17F4 /* Info.plist */,
+			);
+			path = "Swift web hybrid template";
+			sourceTree = "<group>";
+		};
+		928B65661BF17ACE004F17F4 /* Swift web hybrid templateTests */ = {
+			isa = PBXGroup;
+			children = (
+				928B65671BF17ACE004F17F4 /* Swift_web_hybrid_templateTests.swift */,
+				928B65691BF17ACE004F17F4 /* Info.plist */,
+			);
+			path = "Swift web hybrid templateTests";
+			sourceTree = "<group>";
+		};
+		928B65771BF17D69004F17F4 /* web_root */ = {
+			isa = PBXGroup;
+			children = (
+				928B65801BF17D8F004F17F4 /* css */,
+				928B65811BF17D8F004F17F4 /* js */,
+				928B657A1BF17D69004F17F4 /* index.html */,
+			);
+			path = web_root;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		928B65511BF17ACE004F17F4 /* Swift web hybrid template */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 928B656C1BF17ACE004F17F4 /* Build configuration list for PBXNativeTarget "Swift web hybrid template" */;
+			buildPhases = (
+				928B654E1BF17ACE004F17F4 /* Sources */,
+				928B654F1BF17ACE004F17F4 /* Frameworks */,
+				928B65501BF17ACE004F17F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift web hybrid template";
+			productName = "Swift web hybrid template";
+			productReference = 928B65521BF17ACE004F17F4 /* Swift web hybrid template.app */;
+			productType = "com.apple.product-type.application";
+		};
+		928B65621BF17ACE004F17F4 /* Swift web hybrid templateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 928B656F1BF17ACE004F17F4 /* Build configuration list for PBXNativeTarget "Swift web hybrid templateTests" */;
+			buildPhases = (
+				928B655F1BF17ACE004F17F4 /* Sources */,
+				928B65601BF17ACE004F17F4 /* Frameworks */,
+				928B65611BF17ACE004F17F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				928B65651BF17ACE004F17F4 /* PBXTargetDependency */,
+			);
+			name = "Swift web hybrid templateTests";
+			productName = "Swift web hybrid templateTests";
+			productReference = 928B65631BF17ACE004F17F4 /* Swift web hybrid templateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		928B654A1BF17ACE004F17F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					928B65511BF17ACE004F17F4 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					928B65621BF17ACE004F17F4 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 928B65511BF17ACE004F17F4;
+					};
+				};
+			};
+			buildConfigurationList = 928B654D1BF17ACE004F17F4 /* Build configuration list for PBXProject "Swift web hybrid template" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 928B65491BF17ACE004F17F4;
+			productRefGroup = 928B65531BF17ACE004F17F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				928B65511BF17ACE004F17F4 /* Swift web hybrid template */,
+				928B65621BF17ACE004F17F4 /* Swift web hybrid templateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		928B65501BF17ACE004F17F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928B65831BF17D8F004F17F4 /* js in Resources */,
+				928B65821BF17D8F004F17F4 /* css in Resources */,
+				928B655A1BF17ACE004F17F4 /* Assets.xcassets in Resources */,
+				928B657E1BF17D69004F17F4 /* index.html in Resources */,
+				928B655D1BF17ACE004F17F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928B65611BF17ACE004F17F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		928B654E1BF17ACE004F17F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928B65581BF17ACE004F17F4 /* ViewController.swift in Sources */,
+				928B65561BF17ACE004F17F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928B655F1BF17ACE004F17F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928B65681BF17ACE004F17F4 /* Swift_web_hybrid_templateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		928B65651BF17ACE004F17F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 928B65511BF17ACE004F17F4 /* Swift web hybrid template */;
+			targetProxy = 928B65641BF17ACE004F17F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		928B655B1BF17ACE004F17F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				928B655C1BF17ACE004F17F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		928B656A1BF17ACE004F17F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		928B656B1BF17ACE004F17F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		928B656D1BF17ACE004F17F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Swift web hybrid template/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Swift-web-hybrid-template";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		928B656E1BF17ACE004F17F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Swift web hybrid template/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Swift-web-hybrid-template";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		928B65701BF17ACE004F17F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Swift web hybrid templateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Swift-web-hybrid-templateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift web hybrid template.app/Contents/MacOS/Swift web hybrid template";
+			};
+			name = Debug;
+		};
+		928B65711BF17ACE004F17F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Swift web hybrid templateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Swift-web-hybrid-templateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift web hybrid template.app/Contents/MacOS/Swift web hybrid template";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		928B654D1BF17ACE004F17F4 /* Build configuration list for PBXProject "Swift web hybrid template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928B656A1BF17ACE004F17F4 /* Debug */,
+				928B656B1BF17ACE004F17F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		928B656C1BF17ACE004F17F4 /* Build configuration list for PBXNativeTarget "Swift web hybrid template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928B656D1BF17ACE004F17F4 /* Debug */,
+				928B656E1BF17ACE004F17F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		928B656F1BF17ACE004F17F4 /* Build configuration list for PBXNativeTarget "Swift web hybrid templateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928B65701BF17ACE004F17F4 /* Debug */,
+				928B65711BF17ACE004F17F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 928B654A1BF17ACE004F17F4 /* Project object */;
+}
