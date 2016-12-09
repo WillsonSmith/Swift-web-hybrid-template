@@ -15,28 +15,28 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad();
         
-        let url = NSBundle.mainBundle().URLForResource("index", withExtension:"html");
-        let request = NSURLRequest(URL: url!);
+        let url = Bundle.main.url(forResource: "index", withExtension:"html");
+        let request = URLRequest(url: url!);
         
-        self.webView.mainFrame.loadRequest(request);
+        self.webView.mainFrame.load(request);
         self.webView.windowScriptObject.setValue(self, forKey: "swift");
         
     }
     
-    override class func webScriptNameForSelector(selector: Selector) -> String! {
+    override class func webScriptName(for selector: Selector) -> String? {
         switch(selector) {
-            case "getCurrentVersion:":
+            case Selector(("getCurrentVersion:")):
                 return "getCurrentVersion";
             default:
                 return nil;
         }
     }
     
-    override class func isSelectorExcludedFromWebScript(selector: Selector) -> Bool {
+    override class func isSelectorExcluded(fromWebScript selector: Selector) -> Bool {
         return false;
     }
     
-    func executeJavascript(functionToRun:String, argument:String?) {
+    func executeJavascript(_ functionToRun:String, argument:String?) {
         var functionName:String;
         var arg:String;
         if ((argument) != nil) {
@@ -46,7 +46,7 @@ class ViewController: NSViewController {
         }
 
         functionName = "\(functionToRun)('\(arg)')";
-        self.webView.stringByEvaluatingJavaScriptFromString(functionName);
+        self.webView.stringByEvaluatingJavaScript(from: functionName);
     }
     
     func currentVersion() -> String {
@@ -57,7 +57,7 @@ class ViewController: NSViewController {
         executeJavascript("addVersion", argument:currentVersion());
     }
 
-    override var representedObject: AnyObject? {
+    override var representedObject: Any? {
         didSet {
         // Update the view, if already loaded.
         }

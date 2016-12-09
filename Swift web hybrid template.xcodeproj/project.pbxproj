@@ -12,9 +12,9 @@
 		928B655A1BF17ACE004F17F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928B65591BF17ACE004F17F4 /* Assets.xcassets */; };
 		928B655D1BF17ACE004F17F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928B655B1BF17ACE004F17F4 /* Main.storyboard */; };
 		928B65681BF17ACE004F17F4 /* Swift_web_hybrid_templateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928B65671BF17ACE004F17F4 /* Swift_web_hybrid_templateTests.swift */; };
-		928B657E1BF17D69004F17F4 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 928B657A1BF17D69004F17F4 /* index.html */; settings = {ASSET_TAGS = (); }; };
-		928B65821BF17D8F004F17F4 /* css in Resources */ = {isa = PBXBuildFile; fileRef = 928B65801BF17D8F004F17F4 /* css */; settings = {ASSET_TAGS = (); }; };
-		928B65831BF17D8F004F17F4 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 928B65811BF17D8F004F17F4 /* js */; settings = {ASSET_TAGS = (); }; };
+		928B657E1BF17D69004F17F4 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 928B657A1BF17D69004F17F4 /* index.html */; };
+		928B65821BF17D8F004F17F4 /* css in Resources */ = {isa = PBXBuildFile; fileRef = 928B65801BF17D8F004F17F4 /* css */; };
+		928B65831BF17D8F004F17F4 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 928B65811BF17D8F004F17F4 /* js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -154,13 +154,15 @@
 		928B654A1BF17ACE004F17F4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0810;
 				TargetAttributes = {
 					928B65511BF17ACE004F17F4 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0810;
 					};
 					928B65621BF17ACE004F17F4 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0810;
 						TestTargetID = 928B65511BF17ACE004F17F4;
 					};
 				};
@@ -259,8 +261,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -303,8 +307,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -323,6 +329,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
@@ -335,6 +342,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Swift-web-hybrid-template";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -347,6 +355,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Swift-web-hybrid-template";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -359,6 +368,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Swift-web-hybrid-templateTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift web hybrid template.app/Contents/MacOS/Swift web hybrid template";
 			};
 			name = Debug;
@@ -372,6 +382,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Swift-web-hybrid-templateTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift web hybrid template.app/Contents/MacOS/Swift web hybrid template";
 			};
 			name = Release;
@@ -395,6 +406,7 @@
 				928B656E1BF17ACE004F17F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		928B656F1BF17ACE004F17F4 /* Build configuration list for PBXNativeTarget "Swift web hybrid templateTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +415,7 @@
 				928B65711BF17ACE004F17F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
